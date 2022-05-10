@@ -17,7 +17,7 @@
 body {
     color: #616161; 
     font-family: Montserrat;
-    padding: 70px 0px 0px;
+    /*padding: 70px 0px 0px;*/
     background-color: #f7fafd;
 }
 .header{
@@ -30,14 +30,10 @@ body {
 }
 .box-centro {
 	overflow: hidden;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 175px;
+	padding-bottom: 175px;
 	text-align: center;
 }
-#cabecera{
-    width: 100%;
-    height: 550px;
-    }
 #video {
     position: absolute;
     left: 0;
@@ -47,10 +43,12 @@ body {
     z-index: -10;
     visibility: visible;
 }
+/*
 .imagen-fondo{
     background: url('https://i.postimg.cc/GtJkKB9t/background-1-1.jpg') no-repeat center center;
     background-size: cover; 
 }
+*/
 .items {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
@@ -72,7 +70,7 @@ a{
     color: white;
 }
 .gris-claro{
-    color: rgb(229, 229, 229);
+    color: rgb(243, 243, 243);
 }
 a:link, a:visited, a:active{
     text-decoration: none;
@@ -116,6 +114,10 @@ h3 {
     font: bold;
     padding: 0px 40px; 
     line-height: 70px;
+}
+#logo{
+    padding-left: 1rem;
+    max-width: 60%;
 }
 .logo-image{
     width: auto;
@@ -362,7 +364,6 @@ h3 {
         padding-top: 50px;}
     
     .header{
-        background-color: #213782;
         height: 50px;
         position: fixed;
         width: 100%;
@@ -372,6 +373,9 @@ h3 {
         font-size: 25px;
         padding: 0px 20px; 
         line-height: 50px;
+    }
+    #logo{
+        max-width: 50%;
     }
     .box-centro{
         padding-top: 70px;
