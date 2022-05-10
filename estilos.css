@@ -136,7 +136,7 @@ h3 {
 }
 #logo{
     padding-left: 1rem;
-    max-width: 60%;
+    width: 60px;
 }
 .logo-image{
     width: auto;
@@ -437,7 +437,7 @@ h3 {
         line-height: 50px;
     }
     #logo{
-        max-width: 50%;
+        width: 50px;
     }
     .box-1{
         padding-top: 140px;
