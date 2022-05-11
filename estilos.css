@@ -19,7 +19,7 @@
 body {
     color: #616161; 
     font-family: Montserrat;
-    /*padding: 70px 0px 0px;*/
+    padding-top: 70px;
     background-color: #f7fafd;
 }
 .header{
@@ -29,17 +29,22 @@ body {
     width: 100%;
     top: 0%;
     left: 0%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.226);
 }
 .box-1 {
 	overflow: hidden;
-	padding-top: 175px;
-	padding-bottom: 175px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	text-align: center;
 }
 .box-2 {
 	overflow: hidden;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+.principios{
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #contenedor-video {
@@ -71,10 +76,16 @@ body {
 	background-color: #213782;
 }
 .contenedor {
+    display: flex;
+    justify-content:center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
+.margenes-laterales{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .text-container {
     margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -111,10 +122,13 @@ h1 {
 }
 h2 {
 	color: #000000;
-	font-size: 35px;
+	font-size: 40px;
 }
 h3 {
 	color: #000000;
+}
+.titulo-simple{
+    text-align: left;
 }
 .sombreado{
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.226);
@@ -125,9 +139,7 @@ h3 {
     max-width: 992px;
     margin: 0 auto;
 }
-.nav-link{
-    color: white;
-    text-decoration: none;}
+
 .logo{
     font-size: 30px; 
     font: bold;
@@ -158,6 +170,11 @@ h3 {
     text-transform: uppercase;
     width: max-content;
 }
+
+.nav-link{
+    color: white;
+    text-decoration: none;}
+    
 .nav-menu-link{
     padding: 8px 12px;
     border-radius: 20px;
@@ -198,7 +215,6 @@ h3 {
     font-weight: bold;
     border: 2px solid #213782;
     color: #213782;
-    border-radius: 15px;
     transition: all 0.2s;
     width: max-content;
     padding-left: 15px;
@@ -246,6 +262,99 @@ h3 {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.unidad {
+    display: flex;
+    flex: 0 1 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.unidad-equipo {
+    display: flex;
+    flex: 0 1 100%;
+    margin-right: 10px;
+    max-height: 140px;
+}
+.unidad-equipo-izquerda{
+    flex: 0 0 auto;
+    max-height: 140px;
+    max-width: 140px;
+    margin-right: 20px;
+    text-align: left;
+}
+.primer-unidad {
+    margin-left: 1px;
+    text-align: left;
+}
+.ultima-unidad {
+    margin-right: 1px;
+    text-align: left;
+}
+.unidad-izquerda{
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin-right: 15px;
+    text-align: left;
+}
+.unidad-cuerpo {
+    flex: 0 1 auto;
+    text-align: left;
+}
+.persona{
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content:flex-start;
+
+}
+.primer-persona{
+    margin-right: 20px;
+    align-content:flex-start;
+}
+.ultima-persona{
+    margin-left: 20px;
+    align-content:flex-start;
+}
+.item-flotante {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    color: #6372a7;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 7px 7px 13px 0 rgb(0 0 0 / 5%);
+}
+.contenido {
+    margin-top: 15px;
+    text-align: left;
+
+}
+.img-equipo{
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.319);
+}
+.aliner-items-centro {
+    align-items: center !important;
+}
+
+.alinear-items-izquierda{
+    justify-content: left;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-equipo {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
 }
 /************************/
 /*     Estadisticas     */
