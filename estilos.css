@@ -15,12 +15,19 @@
     box-sizing: border-box;
     line-height: 30px;
 }
+.fondo{
+    height: 100%;
+    width: 100%;
+}
 
 body {
     color: #616161; 
     font-family: Montserrat;
     padding-top: 70px;
     background-color: #f7fafd;
+}
+.body-normal{
+    padding-top: 0px;
 }
 .header{
     background-color: #213782;
@@ -55,14 +62,14 @@ body {
     transition: .8s;
 }
 
-#contenedor-video video {
+#contenedor-video video{
     position: absolute;
     min-width: 100%;
     min-height: 100%;
     z-index: -10;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-40%);
 }
 /*
 .imagen-fondo{
@@ -357,8 +364,9 @@ h3 {
     margin-top: 50px;
 }
 .clientes{
-    background-color: #213782;
+    background-color: #d1d6e5;
 }
+
 /************************/
 /*     Estadisticas     */
 /************************/
